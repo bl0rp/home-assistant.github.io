@@ -23,7 +23,7 @@ To add the DWD WarnApp sensor to your installation, add the following to your `c
 ```yaml
 # Example configuration.yaml entry
 sensor:
-  - platform: dwdwarnapp
+  - platform: dwd_weather_warnings
     region_name: Hansestadt Hamburg
 ```
 
